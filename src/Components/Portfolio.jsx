@@ -31,30 +31,31 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Custom Neural network Library",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a custom neural network library to understand the underlying principles and mathematics behind neural network.",
+    url: "https://github.com/pranzalkhadka/custom_neural_network_library",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Banking Chatbot",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed an AI ChatBot using the Rasa framework for seamless interactions in the banking domain that Facilitates natural language conversations, allowing users to inquire about account balance and transaction history.",
+    url: "https://github.com/pranzalkhadka/Banking_ChatBot",
   },
   {
-    title: "My Resume Site",
+    title: "Conversation Summarizer",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Implemented a full-cycle NLP project for summarizing conversations using HuggingFace Transformers by fine-tuning Google’s Pegasus model over a custom dataset",
+    url: "https://github.com/pranzalkhadka/Text_Summarizer",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Building Footprint Segmentation",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a deep learning model for segmenting buildings from surrounding backgrounds in satellite images for urban planning.",
+    url: "https://github.com/pranzalkhadka/Building_footprint_segmentation",
   },
 ];
+
 
 const Portfolio = () => {
   return (
